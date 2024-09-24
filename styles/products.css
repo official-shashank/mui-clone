@@ -11,7 +11,7 @@
 }
 
 .product-card{
-    width: 25%;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     align-items: left;
