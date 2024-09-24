@@ -1,0 +1,53 @@
+@import url("./navbar.css");
+@import url("./products.css");
+
+
+/* font import  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-font);
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+:root {
+  --white: #f7f7f7;
+  --black-font: #191919;
+  --orange:#ff6900;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* hover effects */
+a:hover{
+    color: var(--orange);
+}
+
+.active{
+    color:var(--orange)
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
